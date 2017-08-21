@@ -10,8 +10,14 @@ import { AuthService } from "../../../providers/provider.imports";
 export class LoginComponent implements OnInit {
 
   constructor(private auth : AuthService) { }
-
+  Todo;
   ngOnInit() {
   }
 
+
+  addTodo() {
+    console.log(this.Todo); 
+  }
+
+  
 }

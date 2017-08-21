@@ -1,3 +1,9 @@
 <p>
   login works!
 </p>
+
+<md-input-container>
+  <input mdInput placeholder="Enter Todo" [(ngModel)]="Todo">
+</md-input-container>
+<p>{{Todo}}</p>
+ <button md-raised-button (click)="addTodo()" >Add Button</button>
